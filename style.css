@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
 
+
 /* NAV BAR */
 
 .navbar ul li {
@@ -28,4 +29,68 @@
     background: transparent;
     color: white;
     padding: 5px;
+}
+
+/* HERO */
+
+.section-1 {
+    background: #101010;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-1 h1 {
+    font-weight: 400;
+    padding-left: 0.3rem;
+}
+
+.section-1 h2 {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+.section-1 .divider-line {
+    padding: none;
+    margin-top: -10px;
+    width: 200px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+}
+
+.section-1 .hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 .hero-right {
+    display: relative;
+}
+
+.section-1 .hero-right img{
+    margin-top: -3rem;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 10;
+}
+
+.section-1 .btn-hero {
+    border: dashed 2px rgb(255, 255, 255);
+    color: white;
+    align-self: center;
+    width: 10rem;
+}
+
+.section-1 .btn-hero:hover{
+    border: dashed 2px rgb(255, 0, 0);
+    color: red;
+}
+
+.section-1 .hero-right .red-bg {
+    width: 150px;
+    height: 420px;
+    margin-left: 200px;
+    background: red;
+    position: absolute;
+    z-index: 1;
 }
