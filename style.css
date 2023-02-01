@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+/* NAV BAR */
+
+.navbar ul li {
+    margin: 1rem;
+}
+
+.navbar #signup{
+    margin-top: 10px;
+}
+
+.navbar {
+    background: #1B1B1B;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.navbar .nav-item button {
+    border: solid white 1px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
