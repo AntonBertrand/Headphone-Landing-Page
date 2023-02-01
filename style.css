@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Karma:wght@300;400;500;700&display=swap');
 
 /* NAV BAR */
 
@@ -29,6 +28,11 @@
     background: transparent;
     color: white;
     padding: 5px;
+}
+
+.navbar .nav-item button:hover {
+    color: red;
+    border: solid red 1px;
 }
 
 /* HERO */
@@ -93,4 +97,38 @@
     background: red;
     position: absolute;
     z-index: 1;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+    background: #1B1B1B;
+}
+
+.section-2 .row {
+    padding: 30px;
+}
+
+.section-2 p {
+    font-family: 'Karma', serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.section-2 i {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.section-2 .divider-line {
+    width: 200px;
+    height: 3px;
+    background: rgb(255, 255, 255);
+}
+
+.section-2 .section-2-title {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
