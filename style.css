@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Karma:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Inter:wght@300;400;500;700&family=Karma:wght@300;400;500;700&display=swap');
 
 /* NAV BAR */
+
+body {
+    padding: none;
+    margin: none;
+    overflow-x: hidden;
+}
 
 .navbar ul li {
     margin: 1rem;
@@ -131,4 +137,76 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+/* SECTION 3 */
+
+.section-3 {
+    background: #101010;
+    padding-bottom: 10rem;
+}
+
+.section-3 .card {
+    background: black;
+    color: white;
+    border: solid white 1px;
+    display: flex;
+}
+
+.section-3 .card .btn {
+    background: #8B0000;
+    color: white;
+    width: 15rem;
+    max-width: 100%;
+    height: auto;
+    font-weight: bold;
+    border-radius: 5rem;
+}
+
+.section-3 .card .btn:hover {
+    background: #500000;
+}
+
+.section-3 .card .card-img {
+    max-width: 10rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.section-3 .section-3-title {
+    font-family: 'Iceland', cursive;
+    padding-top: 5rem;
+}
+
+.section-3 .section-3-title h3 {
+    font-size: 3rem;
+}
+
+.section-3 .section-3-title p {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+/* FOOTER */
+
+footer{
+    font-family: 'Iceland', cursive;
+    font-size: 1.5rem;
+    color: white;
+    background: #1B1B1B;
+    padding: auto;
+    height: 5rem;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+
+@media only screen and (max-width: 425px) {
+
 }
