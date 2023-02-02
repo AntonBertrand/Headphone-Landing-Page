@@ -54,9 +54,10 @@ body {
     padding-left: 0.3rem;
 }
 
-.section-1 h2 {
+.section-1 .hero-title {
     font-weight: bold;
-    font-size: 100px;
+    font-size: 90px;
+    line-height: 5rem;
 }
 
 
@@ -207,6 +208,12 @@ footer p {
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 760px) {
 
+    .section-1 .hero-right{
+        display: none;
+    }
+
+
+    
 }
